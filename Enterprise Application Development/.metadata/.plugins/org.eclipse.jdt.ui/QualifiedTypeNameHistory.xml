@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="br.com.fiap.beans.Produto"/>
-<fullyQualifiedTypeName name="br.com.fiap.beans.Tablet"/>
-<fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-</qualifiedTypeNameHistroy>
