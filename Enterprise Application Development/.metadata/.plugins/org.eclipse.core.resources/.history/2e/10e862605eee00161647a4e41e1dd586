@@ -1,0 +1,30 @@
+package br.com.fiap.revisao;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import br.com.fiap.beans.Livro;
+import br.com.fiap.beans.Produto;
+import br.com.fiap.beans.Tablet;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Produto produto = new Produto(1, "Título 1", 666);
+		Tablet tablet = new Tablet(2, "Eletrônicos", 4545, "Samsung", "Apple", "Linux", true);
+		
+		System.out.println(produto.getAll());
+		System.out.println(tablet.getAll());
+		System.out.println("Valor da garantia estendida: " + tablet.calcularGarantiaEstendida());
+		
+		Livro joyce[] = new Livro[3];
+		Calendar dataLancamento = new GregorianCalendar(1988,06,22);
+		SimpleDateFormat formatacaoData = new SimpleDateFormat("dd/MM/yyyy");
+		formatacaoData.format(dataLancamento.getTime());
+		Livro livro1 = new Livro(3,"Livro 1", 33, "Joyce", "Curitibas", );
+		System.out.println(livro1.getAll());
+	}
+
+}

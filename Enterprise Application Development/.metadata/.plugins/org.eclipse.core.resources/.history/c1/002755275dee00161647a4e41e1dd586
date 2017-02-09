@@ -1,0 +1,20 @@
+package br.com.fiap.revisao;
+
+import br.com.fiap.beans.Produto;
+import br.com.fiap.beans.Tablet;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Produto produto = new Produto(1, "Título 1", 666);
+		Tablet tablet = new Tablet(2, "Eletrônicos", 4545, "Samsung", "Apple", "Linux", true);
+		
+		System.out.println(produto.getAll());
+		System.out.println(tablet.getAll());
+		System.out.println("Valor da garantia estendida: " + tablet.calcularGarantiaEstendida());
+		
+		Livro livros[] = new Livro[3];
+	}
+
+}

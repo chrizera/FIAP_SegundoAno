@@ -1,0 +1,12 @@
+package br.com.fiap.revisao;
+
+import br.com.fiap.beans.Produto;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Produto produto = new Produto(1, "Título 1", 666);
+	}
+
+}
